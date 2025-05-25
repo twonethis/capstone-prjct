@@ -1,0 +1,128 @@
+body {
+  background-color: #F8EDE3;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  color: #BDD2B6;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  margin: 50px auto 0 auto;
+  color: #BDD2B6;
+  font-size: 3.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #112D4E;
+  margin: 50px auto 0 auto;
+}
+
+hr {
+  border: dotted #112D4E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 50%;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-card>img {
+  margin: 50px auto;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.monitor {
+  width: 50%;
+  float: left;
+}
+
+.code {
+  width: 50%;
+  float: left;
+}
+
+.btn {
+  float: none;
+  background: #112D4E;
+  background-image: -webkit-linear-gradient(top, #BDD2B6, #A2B29F);
+  background-image: -moz-linear-gradient(top, #BDD2B6, #A2B29F);
+  background-image: -ms-linear-gradient(top, #BDD2B6, #A2B29F);
+  background-image: -o-linear-gradient(top, #BDD2B6, #A2B29F);
+  background-image: linear-gradient(to bottom, #BDD2B6, #A2B29F);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif;
+  color: #F8EDE3;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3F72AF;
+  background-image: -webkit-linear-gradient(top, #A2B29F, #BDD2B6);
+  background-image: -moz-linear-gradient(top, #A2B29F, #BDD2B6);
+  background-image: -ms-linear-gradient(top, #A2B29F, #BDD2B6);
+  background-image: -o-linear-gradient(top, #A2B29F, #BDD2B6);
+  background-image: linear-gradient(to bottom, #A2B29F, #BDD2B6);
+  text-decoration: none;
+  color: #112D4E;
+}
+
+.bottom-container {
+  background-color: #A2B29F;
+  padding: 30px 0 0 0;
+}
+
+.footer-link {
+  color: #798777;
+  text-decoration: none;
+  margin: 25px 25px 25px 25px;
+}
+
+@media (max-width: 1250px) {
+
+  .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 50%;
+      text-align: left;
+      text-align: center;
+    }
+
+  .monitor {
+    width: 50%;
+    float: none;
+  }
+  
+  .code {
+    width: 50%;
+    float: none;
+  }
+}
